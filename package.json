@@ -4,12 +4,14 @@
   "description": "draw svg hexagonal grid with react",
   "main": "lib/index.js",
   "scripts": {
+    "start": "npm run dev",
     "build": "webpack",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server",
     "test": "npm run test:lint && npm run test:unit",
     "test:lint": "eslint {src,test,dev,webpack*} --fix",
-    "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test"
+    "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test",
+    "prepublish": "npm test && npm run build"
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@ import Copy from 'copy-webpack-plugin';
 export default {
   entry: {
     index: ['./src/index.jsx'],
-    entry: './dev/entry.jsx',
+    "dev/entry": './dev/entry.jsx',
   },
   output: {
     publicPath: '/',
@@ -24,12 +24,12 @@ export default {
     ],
   },
   plugins: [
-    new Copy([{ from: 'dev/index.html' }]),
+    new Copy([{ from: 'dev/index.html', to: 'dev' }]),
     new webpack.HotModuleReplacementPlugin(),
   ],
   devTool: 'inline-source-map',
   devServer: {
-    contentBase: 'lib',
+    contentBase: 'lib/dev',
     port: 9000,
     inline: true,
     hot: true,
