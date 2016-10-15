@@ -5,7 +5,7 @@ import Copy from 'copy-webpack-plugin';
 export default {
   entry: {
     index: ['./src/index.jsx'],
-    "dev/entry": './dev/entry.jsx',
+    'dev/entry': './dev/entry.jsx',
   },
   output: {
     publicPath: '/',
