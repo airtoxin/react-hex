@@ -1,6 +1,7 @@
 src
 test
 dev
+images
 lib/entry.js
 lib/index.html
 webpack*
