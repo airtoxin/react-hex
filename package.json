@@ -51,6 +51,7 @@
     "jsdom": "9.5.0",
     "jsdom-global": "2.1.0",
     "mocha": "3.1.0",
+    "random-color": "1.0.1",
     "react": "15.3.2",
     "react-addons-test-utils": "15.3.2",
     "react-dom": "15.3.2",

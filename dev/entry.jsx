@@ -1,12 +1,28 @@
 import React from 'react';
 import { render } from 'react-dom';
+import randomColor from 'random-color';
 import { PointyToppedHex, FlatToppedHex, gridPoints, gridPoint } from '../src/index.jsx';
 
 const size = 30;
 
 const PTHComponent = () => {
-  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(([x, y]) =>
-    <PointyToppedHex x={x} y={y} size={size} key={Math.random()} onClick={() => alert(`x=${x} y=${y}`)} />);
+  let i = 0;
+  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(([x, y]) => {
+    i++;
+    return (
+      <g key={`${x}-${y}`}>
+        <PointyToppedHex
+          x={x}
+          y={y}
+          size={size}
+          fill="white"
+          stroke="black"
+          onClick={() => alert(`x=${x} y=${y}`)}
+        />
+        <text x={x} y={y}>{i}</text>
+      </g>
+    );
+  });
   return (
     <div>
       <h2>PointyToppedHex</h2>
@@ -18,8 +34,22 @@ const PTHComponent = () => {
 };
 
 const FTHComponent = () => {
-  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(([x, y]) =>
-    <FlatToppedHex x={x} y={y} size={size} key={Math.random()} />);
+  let i = 0;
+  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(([x, y]) => {
+    i++;
+    return (
+      <g key={`${x}-${y}`}>
+        <FlatToppedHex
+          x={x}
+          y={y}
+          size={size}
+          fill={randomColor().hexString()}
+          stroke="white"
+        />
+        <text x={x} y={y}>{i}</text>
+      </g>
+    );
+  });
   return (
     <div>
       <h2>FlatToppedHex</h2>
