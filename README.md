@@ -95,11 +95,11 @@ Helper function to bulk calculate hexagon location in grid.
 | gridWidth | integer     | grid width                                          | yes      | -       |
 | gridHeigh | integer     | grid height                                         | yes      | -       |
 
-__pointy topped grid coordinate__
+__pointy topped grid coordinate x,y__
 
 ![pointy-topped](images/pt-grid.png)
 
-__flat topped grid coordinate__
+__flat topped grid coordinate x,y__
 
 ![flat-topped](images/ft-grid.png)
 
