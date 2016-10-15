@@ -1,5 +1,6 @@
 src
 test
 dev
-lib/dev
+lib/entry.js
+lib/index.html
 webpack*
