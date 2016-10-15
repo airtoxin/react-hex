@@ -1,7 +1,7 @@
 import assert from 'assert';
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import { PointyToppedHex, FlatToppedHex } from '../../src';
+import { PointyToppedHex, FlatToppedHex } from '../src';
 
 describe('PointyToppedHex', () => {
   it('pass through props options to svg polygon', () => {

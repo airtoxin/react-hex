@@ -7,10 +7,9 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server",
-    "test": "npm run test:lint && npm run test:unit && npm run test:e2e",
+    "test": "npm run test:lint && npm run test:unit",
     "test:lint": "eslint {src,test,dev,webpack*} --fix",
-    "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test/unit",
-    "test:e2e": "babel-node test/boot-e2e"
+    "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test"
   },
   "repository": {
     "type": "git",
@@ -52,11 +51,9 @@
     "jsdom": "9.5.0",
     "jsdom-global": "2.1.0",
     "mocha": "3.1.0",
-    "nightmare": "2.7.0",
     "react": "15.3.2",
     "react-addons-test-utils": "15.3.2",
     "react-dom": "15.3.2",
-    "recursive-readdir": "2.1.0",
     "style-loader": "0.13.1",
     "webpack": "1.13.2",
     "webpack-dev-server": "1.16.1"

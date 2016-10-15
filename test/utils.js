@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { hexCorners, gridPoint, gridPoints } from '../../src/utils';
+import { hexCorners, gridPoint, gridPoints } from '../src/utils';
 
 describe('hexCorners', () => {
   it('should return six corners of pointy-topped hex', () => {
