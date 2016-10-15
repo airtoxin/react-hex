@@ -49,4 +49,4 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
 
 export const gridPoints = (type, size, baseX, baseY, gridWidth, gridHeight) =>
   product(gridHeight, gridWidth).map(([gridY, gridX]) =>
-    gridPoint(type, size, gridX, gridY, baseX, baseY));
+    gridPoint(type, size, gridX, gridY, baseX, baseY).concat([gridX, gridY]));

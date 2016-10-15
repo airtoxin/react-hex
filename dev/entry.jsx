@@ -7,7 +7,7 @@ const size = 30;
 
 const PTHComponent = () => {
   let i = 0;
-  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(([x, y]) => {
+  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(([x, y, gridX, gridY]) => {
     i++;
     return (
       <g key={`${x}-${y}`}>
@@ -19,7 +19,7 @@ const PTHComponent = () => {
           stroke="black"
           onClick={() => alert(`x=${x} y=${y}`)}
         />
-        <text x={x} y={y}>{i}</text>
+        <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
       </g>
     );
   });
@@ -35,7 +35,7 @@ const PTHComponent = () => {
 
 const FTHComponent = () => {
   let i = 0;
-  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(([x, y]) => {
+  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(([x, y, gridX, gridY]) => {
     i++;
     return (
       <g key={`${x}-${y}`}>
@@ -46,7 +46,7 @@ const FTHComponent = () => {
           fill={randomColor().hexString()}
           stroke="white"
         />
-        <text x={x} y={y}>{i}</text>
+        <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
       </g>
     );
   });
