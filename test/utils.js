@@ -57,15 +57,15 @@ describe('gridPoints', () => {
   it('should return sequential gridPoints (pointy-topped)', () => {
     const result = gridPoints('pointy-topped', 30, 13, 48, 3, 3);
     const expected = [
-      gridPoint('pointy-topped', 30, 0, 0, 13, 48),
-      gridPoint('pointy-topped', 30, 1, 0, 13, 48),
-      gridPoint('pointy-topped', 30, 2, 0, 13, 48),
-      gridPoint('pointy-topped', 30, 0, 1, 13, 48),
-      gridPoint('pointy-topped', 30, 1, 1, 13, 48),
-      gridPoint('pointy-topped', 30, 2, 1, 13, 48),
-      gridPoint('pointy-topped', 30, 0, 2, 13, 48),
-      gridPoint('pointy-topped', 30, 1, 2, 13, 48),
-      gridPoint('pointy-topped', 30, 2, 2, 13, 48),
+      gridPoint('pointy-topped', 30, 0, 0, 13, 48).concat([0, 0]),
+      gridPoint('pointy-topped', 30, 1, 0, 13, 48).concat([1, 0]),
+      gridPoint('pointy-topped', 30, 2, 0, 13, 48).concat([2, 0]),
+      gridPoint('pointy-topped', 30, 0, 1, 13, 48).concat([0, 1]),
+      gridPoint('pointy-topped', 30, 1, 1, 13, 48).concat([1, 1]),
+      gridPoint('pointy-topped', 30, 2, 1, 13, 48).concat([2, 1]),
+      gridPoint('pointy-topped', 30, 0, 2, 13, 48).concat([0, 2]),
+      gridPoint('pointy-topped', 30, 1, 2, 13, 48).concat([1, 2]),
+      gridPoint('pointy-topped', 30, 2, 2, 13, 48).concat([2, 2]),
     ];
     assert.deepEqual(result, expected);
   });
@@ -73,15 +73,15 @@ describe('gridPoints', () => {
   it('should return sequential gridPoints (flat-topped)', () => {
     const result = gridPoints('flat-topped', 30, 13, 48, 3, 3);
     const expected = [
-      gridPoint('flat-topped', 30, 0, 0, 13, 48),
-      gridPoint('flat-topped', 30, 1, 0, 13, 48),
-      gridPoint('flat-topped', 30, 2, 0, 13, 48),
-      gridPoint('flat-topped', 30, 0, 1, 13, 48),
-      gridPoint('flat-topped', 30, 1, 1, 13, 48),
-      gridPoint('flat-topped', 30, 2, 1, 13, 48),
-      gridPoint('flat-topped', 30, 0, 2, 13, 48),
-      gridPoint('flat-topped', 30, 1, 2, 13, 48),
-      gridPoint('flat-topped', 30, 2, 2, 13, 48),
+      gridPoint('flat-topped', 30, 0, 0, 13, 48).concat([0, 0]),
+      gridPoint('flat-topped', 30, 1, 0, 13, 48).concat([1, 0]),
+      gridPoint('flat-topped', 30, 2, 0, 13, 48).concat([2, 0]),
+      gridPoint('flat-topped', 30, 0, 1, 13, 48).concat([0, 1]),
+      gridPoint('flat-topped', 30, 1, 1, 13, 48).concat([1, 1]),
+      gridPoint('flat-topped', 30, 2, 1, 13, 48).concat([2, 1]),
+      gridPoint('flat-topped', 30, 0, 2, 13, 48).concat([0, 2]),
+      gridPoint('flat-topped', 30, 1, 2, 13, 48).concat([1, 2]),
+      gridPoint('flat-topped', 30, 2, 2, 13, 48).concat([2, 2]),
     ];
     assert.deepEqual(result, expected);
   });
