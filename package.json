@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "npm run dev",
-    "build": "webpack",
+    "build": "NODE_ENV=production webpack",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server",
     "test": "npm run test:lint && npm run test:unit",

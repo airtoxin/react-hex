@@ -1,8 +1,9 @@
 import path from 'path';
 import webpack from 'webpack';
 import Copy from 'copy-webpack-plugin';
+const env = process.env.NODE_ENV;
 
-export default {
+const config = {
   entry: {
     index: ['./src/index.jsx'],
     entry: './dev/entry.jsx',
@@ -27,8 +28,29 @@ export default {
   plugins: [
     new Copy([{ from: 'dev/index.html' }]),
     new webpack.HotModuleReplacementPlugin(),
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+    })
   ],
+  node: {
+    Buffer: false
+  },
   devTool: 'inline-source-map',
+  externals: {
+    'react': {
+      root: 'React',
+      commonjs2: 'react',
+      commonjs: 'react',
+      amd: 'react',
+    },
+    'react-dom': {
+      root: 'ReactDOM',
+      commonjs2: 'react-dom',
+      commonjs: 'react-dom',
+      amd: 'react-dom'
+    },
+  },
   devServer: {
     contentBase: 'lib',
     port: 9000,
@@ -37,3 +59,16 @@ export default {
     colors: true,
   },
 };
+
+if (env === 'production') {
+  config.plugins.push(
+    new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        screw_ie8: true,
+        warnings: false
+      }
+    })
+  );
+}
+
+export default config;
