@@ -1,6 +1,7 @@
 import path from 'path';
 import webpack from 'webpack';
 import Copy from 'copy-webpack-plugin';
+
 const env = process.env.NODE_ENV;
 
 const config = {
@@ -30,15 +31,15 @@ const config = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-    })
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    }),
   ],
   node: {
-    Buffer: false
+    Buffer: false,
   },
   devTool: 'inline-source-map',
   externals: {
-    'react': {
+    react: {
       root: 'React',
       commonjs2: 'react',
       commonjs: 'react',
@@ -48,7 +49,7 @@ const config = {
       root: 'ReactDOM',
       commonjs2: 'react-dom',
       commonjs: 'react-dom',
-      amd: 'react-dom'
+      amd: 'react-dom',
     },
   },
   devServer: {
@@ -65,8 +66,8 @@ if (env === 'production') {
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         screw_ie8: true,
-        warnings: false
-      }
+        warnings: false,
+      },
     })
   );
 }
