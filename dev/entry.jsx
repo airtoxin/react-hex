@@ -1,14 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
 import randomColor from 'random-color';
-import { PointyToppedHex, FlatToppedHex, gridPoints, gridPoint } from '../src/index.jsx';
+import { PointyToppedHex, FlatToppedHex, gridPoints } from '../src/index.jsx';
 
 const size = 30;
 
 const PTHComponent = () => {
-  let i = 0;
   const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(([x, y, gridX, gridY]) => {
-    i++;
     return (
       <g key={`${x}-${y}`}>
         <PointyToppedHex
@@ -34,9 +32,7 @@ const PTHComponent = () => {
 };
 
 const FTHComponent = () => {
-  let i = 0;
   const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(([x, y, gridX, gridY]) => {
-    i++;
     return (
       <g key={`${x}-${y}`}>
         <FlatToppedHex
