@@ -12,6 +12,7 @@ export default {
     sourcePath: ' ',
     path: path.resolve(__dirname, 'lib'),
     filename: '[name].js',
+    libraryTarget: 'umd',
   },
   target: 'web',
   resolve: {
