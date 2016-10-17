@@ -24,7 +24,7 @@ const PTHComponent = () => {
   return (
     <div>
       <h2>PointyToppedHex</h2>
-      <svg width={1000} height={1000}>
+      <svg width={900} height={600}>
         {Hexes}
       </svg>
     </div>
@@ -49,7 +49,7 @@ const FTHComponent = () => {
   return (
     <div>
       <h2>FlatToppedHex</h2>
-      <svg width={1000} height={1000}>
+      <svg width={1500} height={400}>
         {Hexes}
       </svg>
     </div>

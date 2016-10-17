@@ -37,9 +37,9 @@ describe('gridPoint', () => {
     assert.deepEqual(gridPoint('pointy-topped', 10, 0, 0), [0, 0]);
     assert.deepEqual(gridPoint('pointy-topped', 1, 0, 0), [0, 0]);
     assert.deepEqual(gridPoint('pointy-topped', 0, 0, 0), [0, 0]);
-    assert.deepEqual(gridPoint('pointy-topped', 100, 10, 10), [1732.0508075688772, 1500]);
-    assert.deepEqual(gridPoint('pointy-topped', 10, 10, 10), [173.2050807568877, 150]);
-    assert.deepEqual(gridPoint('pointy-topped', 1, 10, 10), [17.32050807568877, 15]);
+    assert.deepEqual(gridPoint('pointy-topped', 100, 10, 10), [2598.0762113533156, 1500]);
+    assert.deepEqual(gridPoint('pointy-topped', 10, 10, 10), [259.80762113533156, 150]);
+    assert.deepEqual(gridPoint('pointy-topped', 1, 10, 10), [25.980762113533156, 15]);
   });
 
   it('should return center point of flat-topped hexagonal grid system', () => {
@@ -47,9 +47,9 @@ describe('gridPoint', () => {
     assert.deepEqual(gridPoint('flat-topped', 10, 0, 0), [0, 0]);
     assert.deepEqual(gridPoint('flat-topped', 1, 0, 0), [0, 0]);
     assert.deepEqual(gridPoint('flat-topped', 0, 0, 0), [0, 0]);
-    assert.deepEqual(gridPoint('flat-topped', 100, 10, 10), [3000, 866.0254037844386]);
-    assert.deepEqual(gridPoint('flat-topped', 10, 10, 10), [300, 86.60254037844385]);
-    assert.deepEqual(gridPoint('flat-topped', 1, 10, 10), [30, 8.660254037844386]);
+    assert.deepEqual(gridPoint('flat-topped', 100, 10, 10), [4500, 866.0254037844386]);
+    assert.deepEqual(gridPoint('flat-topped', 10, 10, 10), [450, 86.60254037844385]);
+    assert.deepEqual(gridPoint('flat-topped', 1, 10, 10), [45, 8.660254037844386]);
   });
 });
 

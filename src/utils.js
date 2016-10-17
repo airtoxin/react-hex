@@ -30,14 +30,14 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
   if (type === POINTY) {
     const height = size * 2;
     const width = size * SQRT3;
-    const diffXFromY = gridY % 2 * width / 2;
+    const diffXFromY = gridY * width / 2;
     const gridPointX = gridX * width + diffXFromY;
     const gridPointY = gridY * height * 0.75;
     return [gridPointX + relativeX, gridPointY + relativeY];
   } else if (type === FLAT) {
     const width = size * 2;
     const height = size * SQRT3;
-    const diffXFromY = gridY % 2 * width * 0.75;
+    const diffXFromY = gridY * width * 0.75;
     const gridPointX = gridX * width * 1.5 + diffXFromY;
     const gridPointY = gridY * height / 2;
     return [gridPointX + relativeX, gridPointY + relativeY];
