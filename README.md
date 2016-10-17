@@ -14,14 +14,22 @@ import { PointyToppedHex, gridPoints } from '../src/index.jsx';
 
 export default () => {
   const type = 'pointy-topped';
-  const size = 30;
+  const size = 10;
   const oX = 100;
   const oY = 100;
-  const width = 10;
-  const height = 10;
+  const width = 25;
+  const height = 25;
 
-  const Hexes = gridPoints(type, size, oX, oY, width, height).map(([x, y]) =>
-    <PointyToppedHex key={`${x}-${y}`} x={x} y={y} fill="white" stroke="black" />);
+  const Hexes = gridPoints(type, size, oX, oY, width, height).map(([x, y, gridX, gridY]) =>
+    <PointyToppedHex key={`${gridX}-${gridY}`} x={x} y={y} size={size} fill="white" stroke="black" />);
+  return (
+    <div>
+      <h2>PointyToppedHex</h2>
+      <svg width={900} height={600}>
+        {Hexes}
+      </svg>
+    </div>
+  );
 
   return (
     <svg width="1000" height="1000">
