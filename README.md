@@ -75,7 +75,7 @@ The other props are passed to underlay svg polygon element.
 
 ### `gridPoint(type, size, gridX, gridY, oX=0, oY=0)`
 
-__return: `[x, y]`__
+__return: `{ center: [x, y], grid: [gridX, gridY], corners: [[cx0, cy0] ... [cx5, cy5]] }`__
 
 Helper function to calculate hexagon location in grid.
 
@@ -90,7 +90,7 @@ Helper function to calculate hexagon location in grid.
 
 ### `gridPoints(type, size, oX, oY, gridWidth, gridHeight)`
 
-__return: `[[x0, y0, gridX0, gridY0], [x1, y1 gridX1, gridY1] ...]`__
+__return: `[ { center: [x, y], grid: [gridX, gridY], corners: [[cx0, cy0] ... [cx5, cy5]] } ...]`__
 
 Helper function to bulk calculate hexagon location in grid.
 
