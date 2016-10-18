@@ -6,7 +6,7 @@ import { PointyToppedHex, FlatToppedHex, gridPoints } from '../src/index.jsx';
 const size = 30;
 
 const PTHComponent = () => {
-  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(([x, y, gridX, gridY]) => {
+  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => {
     return (
       <g key={`${x}-${y}`}>
         <PointyToppedHex
@@ -21,6 +21,7 @@ const PTHComponent = () => {
       </g>
     );
   });
+
   return (
     <div>
       <h2>PointyToppedHex</h2>
@@ -32,7 +33,7 @@ const PTHComponent = () => {
 };
 
 const FTHComponent = () => {
-  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(([x, y, gridX, gridY]) => {
+  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => {
     return (
       <g key={`${x}-${y}`}>
         <FlatToppedHex
@@ -46,6 +47,7 @@ const FTHComponent = () => {
       </g>
     );
   });
+
   return (
     <div>
       <h2>FlatToppedHex</h2>
