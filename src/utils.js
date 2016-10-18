@@ -33,14 +33,30 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
     const diffXFromY = gridY * width / 2;
     const gridPointX = gridX * width + diffXFromY;
     const gridPointY = gridY * height * 0.75;
-    return [gridPointX + relativeX, gridPointY + relativeY];
+
+    const x = gridPointX + relativeX;
+    const y = gridPointY + relativeY;
+
+    return {
+      center: [x, y],
+      corners: hexCorners(type, x, y, size),
+      grid: [gridX, gridY],
+    };
   } else if (type === FLAT) {
     const width = size * 2;
     const height = size * SQRT3;
     const diffXFromY = gridY * width * 0.75;
     const gridPointX = gridX * width * 1.5 + diffXFromY;
     const gridPointY = gridY * height / 2;
-    return [gridPointX + relativeX, gridPointY + relativeY];
+
+    const x = gridPointX + relativeX;
+    const y = gridPointY + relativeY;
+
+    return {
+      center: [x, y],
+      corners: hexCorners(type, x, y, size),
+      grid: [gridX, gridY],
+    };
   } else {
     throw new Error(`grid type was either ${POINTY} or ${FLAT}`);
   }
@@ -49,4 +65,4 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
 
 export const gridPoints = (type, size, baseX, baseY, gridWidth, gridHeight) =>
   product(gridHeight, gridWidth).map(([gridY, gridX]) =>
-    gridPoint(type, size, gridX, gridY, baseX, baseY).concat([gridX, gridY]));
+    gridPoint(type, size, gridX, gridY, baseX, baseY));
