@@ -24,7 +24,7 @@ export const hexCorners = (type, x, y, size) => {
   });
 };
 
-export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0) => {
+export const gridPoint = (type, size, gridX, gridY, oX = 0, oY = 0) => {
   /* eslint-disable no-else-return */
   /* reason: it seems buggy */
   if (type === POINTY) {
@@ -34,8 +34,8 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
     const gridPointX = gridX * width + diffXFromY;
     const gridPointY = gridY * height * 0.75;
 
-    const x = gridPointX + relativeX;
-    const y = gridPointY + relativeY;
+    const x = gridPointX + oX;
+    const y = gridPointY + oY;
 
     return {
       center: [x, y],
@@ -49,8 +49,8 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
     const gridPointX = gridX * width * 1.5 + diffXFromY;
     const gridPointY = gridY * height / 2;
 
-    const x = gridPointX + relativeX;
-    const y = gridPointY + relativeY;
+    const x = gridPointX + oX;
+    const y = gridPointY + oY;
 
     return {
       center: [x, y],
@@ -63,6 +63,6 @@ export const gridPoint = (type, size, gridX, gridY, relativeX = 0, relativeY = 0
   /* eslint-enable no-else-return */
 };
 
-export const gridPoints = (type, size, baseX, baseY, gridWidth, gridHeight) =>
+export const gridPoints = (type, size, oX, oY, gridWidth, gridHeight) =>
   product(gridHeight, gridWidth).map(([gridY, gridX]) =>
-    gridPoint(type, size, gridX, gridY, baseX, baseY));
+    gridPoint(type, size, gridX, gridY, oX, oY));
