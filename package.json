@@ -17,7 +17,15 @@
     "type": "git",
     "url": "https://github.com/airtoxin/react-hex"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "hex",
+    "hexagon",
+    "grid",
+    "svg"
+  ],
   "directories": {
     "lib": "lib",
     "test": "test"
