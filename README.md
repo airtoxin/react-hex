@@ -20,7 +20,7 @@ export default () => {
   const width = 25;
   const height = 25;
 
-  const Hexes = gridPoints(type, size, oX, oY, width, height).map(([x, y, gridX, gridY]) =>
+  const Hexes = gridPoints(type, size, oX, oY, width, height).map(({ center: [x, y], grid: [gridX, gridY] }) =>
     <PointyToppedHex key={`${gridX}-${gridY}`} x={x} y={y} size={size} fill="white" stroke="black" />);
   return (
     <div>
