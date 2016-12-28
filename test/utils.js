@@ -46,7 +46,7 @@ describe('gridPoint', () => {
           [-1.8369701987210297e-14, -100],
           [86.60254037844383, -50.00000000000004],
         ],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('pointy-topped', 10, 0, 0),
@@ -61,7 +61,7 @@ describe('gridPoint', () => {
           [-1.8369701987210296e-15, -10],
           [8.660254037844384, -5.000000000000004],
         ],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('pointy-topped', 1, 0, 0),
@@ -76,7 +76,7 @@ describe('gridPoint', () => {
           [-1.8369701987210297e-16, -1],
           [0.8660254037844384, -0.5000000000000004],
         ],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('pointy-topped', 0, 0, 0),
@@ -91,7 +91,7 @@ describe('gridPoint', () => {
           [0, 0],
           [0, 0],
         ],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('pointy-topped', 100, 10, 10),
@@ -106,7 +106,7 @@ describe('gridPoint', () => {
           [2598.0762113533156, 1400],
           [2684.6787517317593, 1450],
         ],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('pointy-topped', 10, 10, 10),
@@ -121,7 +121,7 @@ describe('gridPoint', () => {
           [259.80762113533154, 140],
           [268.4678751731759, 145],
         ],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('pointy-topped', 1, 10, 10),
@@ -136,7 +136,7 @@ describe('gridPoint', () => {
           [25.980762113533157, 14],
           [26.846787517317594, 14.5],
         ],
-      }
+      },
     );
   });
 
@@ -154,7 +154,7 @@ describe('gridPoint', () => {
           [50.000000000000014, -86.60254037844386],
         ],
         grid: [0, 0],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('flat-topped', 10, 0, 0),
@@ -169,7 +169,7 @@ describe('gridPoint', () => {
           [5.000000000000001, -8.660254037844386],
         ],
         grid: [0, 0],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('flat-topped', 1, 0, 0),
@@ -184,7 +184,7 @@ describe('gridPoint', () => {
           [0.5000000000000001, -0.8660254037844386],
         ],
         grid: [0, 0],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('flat-topped', 0, 0, 0),
@@ -199,7 +199,7 @@ describe('gridPoint', () => {
           [0, 0],
         ],
         grid: [0, 0],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('flat-topped', 100, 10, 10),
@@ -214,7 +214,7 @@ describe('gridPoint', () => {
           [4550, 779.4228634059947],
         ],
         grid: [10, 10],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('flat-topped', 10, 10, 10),
@@ -229,7 +229,7 @@ describe('gridPoint', () => {
           [455, 77.94228634059947],
         ],
         grid: [10, 10],
-      }
+      },
     );
     assert.deepEqual(
       gridPoint('flat-topped', 1, 10, 10),
@@ -244,7 +244,7 @@ describe('gridPoint', () => {
           [45.5, 7.794228634059947],
         ],
         grid: [10, 10],
-      }
+      },
     );
   });
 });

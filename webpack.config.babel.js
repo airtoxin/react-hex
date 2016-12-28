@@ -4,7 +4,7 @@ import Copy from 'copy-webpack-plugin';
 
 const pluginsInDevelopEnv = [
   new Copy([{ from: 'dev/index.html' }]),
-  new webpack.HotModuleReplacementPlugin()
+  new webpack.HotModuleReplacementPlugin(),
 ];
 
 const config = {

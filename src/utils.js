@@ -8,11 +8,11 @@ const SQRT3 = Math.sqrt(3);
 const range = n => Array.from(Array(n).keys());
 const product = (p, q) => {
   const l = [];
-  for (const i of range(p)) {
-    for (const j of range(q)) {
+  range(p).forEach((i) => {
+    range(q).forEach((j) => {
       l.push([i, j]);
-    }
-  }
+    });
+  });
   return l;
 };
 
