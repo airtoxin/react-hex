@@ -2,7 +2,10 @@ import path from 'path';
 import webpack from 'webpack';
 import Copy from 'copy-webpack-plugin';
 
-const env = process.env.NODE_ENV;
+const pluginsInDevelopEnv = [
+  new Copy([{ from: 'dev/index.html' }]),
+  new webpack.HotModuleReplacementPlugin()
+];
 
 const config = {
   entry: {
@@ -27,13 +30,8 @@ const config = {
     ],
   },
   plugins: [
-    new Copy([{ from: 'dev/index.html' }]),
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    }),
-  ],
+  ].concat(process.env.NODE_ENV !== 'production' ? pluginsInDevelopEnv : []),
   node: {
     Buffer: false,
   },
@@ -46,16 +44,5 @@ const config = {
     colors: true,
   },
 };
-
-if (env === 'production') {
-  config.plugins.push(
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        screw_ie8: true,
-        warnings: false,
-      },
-    })
-  );
-}
 
 export default config;

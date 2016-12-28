@@ -27,6 +27,7 @@
     "svg"
   ],
   "directories": {
+    "src": "src",
     "lib": "lib",
     "test": "test"
   },
