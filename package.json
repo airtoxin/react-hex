@@ -11,7 +11,9 @@
     "test": "npm run test:lint && npm run test:unit",
     "test:lint": "eslint {src,test,dev,webpack*} --fix",
     "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test",
-    "prepublish": "npm test && npm run build"
+    "prepublish": "npm test && npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -38,6 +40,8 @@
   },
   "homepage": "https://github.com/airtoxin/react-hex#readme",
   "devDependencies": {
+    "@kadira/react-storybook-addon-info": "3.3.0",
+    "@kadira/storybook": "2.21.0",
     "babel-cli": "6.18.0",
     "babel-core": "6.21.0",
     "babel-eslint": "7.1.1",
