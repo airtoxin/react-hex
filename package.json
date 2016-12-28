@@ -7,7 +7,7 @@
     "start": "npm run dev",
     "build": "NODE_ENV=production webpack",
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server",
+    "dev": "run-p watch storybook",
     "test": "npm run test:lint && npm run test:unit",
     "test:lint": "eslint {src,test,dev,webpack*} --fix",
     "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test",
@@ -53,8 +53,6 @@
     "babel-preset-react": "6.16.0",
     "babel-preset-stage-2": "6.18.0",
     "babel-register": "6.18.0",
-    "copy-webpack-plugin": "4.0.1",
-    "css-loader": "0.26.1",
     "enzyme": "2.7.0",
     "eslint": "3.12.2",
     "eslint-config-airbnb": "13.0.0",
@@ -67,13 +65,12 @@
     "jsdom": "9.9.1",
     "jsdom-global": "2.1.1",
     "mocha": "3.2.0",
+    "npm-run-all": "3.1.2",
     "random-color": "1.0.1",
     "react": "15.4.1",
     "react-addons-test-utils": "15.4.1",
     "react-dom": "15.4.1",
-    "style-loader": "0.13.1",
-    "webpack": "1.14.0",
-    "webpack-dev-server": "1.16.2"
+    "webpack": "1.14.0"
   },
   "dependencies": {
     "babel-runtime": "6.20.0"
