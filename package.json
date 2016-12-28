@@ -1,6 +1,6 @@
 {
   "name": "react-hex",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "draw svg hexagonal grid with react",
   "main": "lib/index.js",
   "scripts": {
