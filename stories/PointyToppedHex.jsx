@@ -4,22 +4,22 @@ import { PointyToppedHex } from '../src/index.jsx';
 
 storiesOf('PointyToppedHex', module)
   .addWithInfo('simple usage', () => (
-    <svg width="500" height="500" style={{border: '1px solid'}}>
-      <PointyToppedHex x={250} y={250} size={50}/>
+    <svg width="500" height="500" style={{ border: '1px solid' }}>
+      <PointyToppedHex x={250} y={250} size={50} />
     </svg>
   ), { inline: true, propTables: [PointyToppedHex] })
   .addWithInfo('place in corner', () => (
-    <svg width="500" height="500" style={{border: '1px solid'}}>
-      <PointyToppedHex x={0} y={0} size={50}/>
+    <svg width="500" height="500" style={{ border: '1px solid' }}>
+      <PointyToppedHex x={0} y={0} size={50} />
     </svg>
   ), { inline: true, propTables: [PointyToppedHex] })
   .addWithInfo('big size', () => (
-    <svg width="500" height="500" style={{border: '1px solid'}}>
-      <PointyToppedHex x={250} y={250} size={250}/>
+    <svg width="500" height="500" style={{ border: '1px solid' }}>
+      <PointyToppedHex x={250} y={250} size={250} />
     </svg>
   ), { inline: true, propTables: [PointyToppedHex] })
   .addWithInfo('pass through props', '', () => (
-    <svg width="500" height="500" style={{border: '1px solid'}}>
+    <svg width="500" height="500" style={{ border: '1px solid' }}>
       <PointyToppedHex
         x={250}
         y={250}
