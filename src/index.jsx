@@ -11,6 +11,9 @@ export const FlatToppedHex = props => {
   return <polygon {...props} points={points.map(point => point.join(',')).join(' ')} />
 };
 
+PointyToppedHex.displayName = 'PointyToppedHex';
+FlatToppedHex.displayName = 'FlatToppedHex';
+
 PointyToppedHex.propTypes = {
   x: PropTypes.number.isRequired,
   y: PropTypes.number.isRequired,
