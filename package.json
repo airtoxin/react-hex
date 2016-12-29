@@ -8,9 +8,10 @@
     "build": "babel src --out-dir lib",
     "watch": "babel src --out-dir lib --watch",
     "dev": "run-p watch storybook",
-    "test": "npm run test:lint && npm run test:unit",
+    "test": "run-p test:*",
     "test:lint": "eslint {src,test,stories} --fix",
     "test:unit": "mocha --compilers babel-register --recursive test",
+    "test:storybook": "NODE_ENV=test storyshots",
     "prepublish": "npm test && npm run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "3.3.0",
     "@kadira/storybook": "2.21.0",
+    "@kadira/storyshots": "2.1.0",
     "babel-cli": "6.18.0",
     "babel-core": "6.21.0",
     "babel-eslint": "7.1.1",
@@ -62,10 +64,10 @@
     "eslint-plugin-react": "6.8.0",
     "mocha": "3.2.0",
     "npm-run-all": "3.1.2",
-    "random-color": "1.0.1",
     "react": "15.4.1",
     "react-addons-test-utils": "15.4.1",
-    "react-dom": "15.4.1"
+    "react-dom": "15.4.1",
+    "seedrandom": "2.4.2"
   },
   "dependencies": {
     "babel-runtime": "6.20.0"

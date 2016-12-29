@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import randomColor from 'random-color';
+import seedrandom from 'seedrandom';
 import { storiesOf } from '@kadira/storybook';
 import { PointyToppedHex, FlatToppedHex, gridPoints } from '../src/index.jsx';
 
+const rng = seedrandom(process.env.NODE_ENV);
 const story = storiesOf('-----examples-----', module);
 
 story.add('README\'s example', () => {
@@ -55,7 +56,7 @@ story.add('FlatToppedHex grid system', () => {
         x={x}
         y={y}
         size={size}
-        fill={randomColor().hexString()}
+        fill={`rgb(${Math.floor(rng() * 255)},${Math.floor(rng() * 255)},${Math.floor(rng() * 255)})`}
         stroke="white"
       />
       <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
@@ -73,7 +74,7 @@ story.add('draw', () => {
   class DrawHex extends Component {
     constructor() {
       super();
-      this.state = { fill: Math.random() < 0.5 };
+      this.state = { fill: rng() < 0.5 };
     }
 
     render() {
@@ -242,7 +243,7 @@ story.add('fill display', () => {
 
     componentDidMount() {
       this.interval = setInterval(() => this.setState({
-        coodinates: this.state.coodinates.concat([[Math.random() * this.props.displaySize, Math.random() * this.props.displaySize]]),
+        coodinates: this.state.coodinates.concat([[rng() * this.props.displaySize, rng() * this.props.displaySize]]),
       }), 1);
     }
 
