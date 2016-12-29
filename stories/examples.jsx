@@ -26,21 +26,19 @@ story.add('README\'s example', () => {
 
 story.add('PointyToppedHex grid system', () => {
   const size = 30;
-  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => {
-    return (
-      <g key={`${x}-${y}`}>
-        <PointyToppedHex
-          x={x}
-          y={y}
-          size={size}
-          fill="white"
-          stroke="black"
-          onClick={() => alert(`x=${x} y=${y}`)}
-        />
-        <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
-      </g>
-    );
-  });
+  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => (
+    <g key={`${x}-${y}`}>
+      <PointyToppedHex
+        x={x}
+        y={y}
+        size={size}
+        fill="white"
+        stroke="black"
+        onClick={() => alert(`x=${x} y=${y}`)}
+      />
+      <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
+    </g>
+    ));
 
   return (
     <svg width="900" height="600">
@@ -51,20 +49,18 @@ story.add('PointyToppedHex grid system', () => {
 
 story.add('FlatToppedHex grid system', () => {
   const size = 30;
-  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => {
-    return (
-      <g key={`${x}-${y}`}>
-        <FlatToppedHex
-          x={x}
-          y={y}
-          size={size}
-          fill={randomColor().hexString()}
-          stroke="white"
-        />
-        <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
-      </g>
-    );
-  });
+  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => (
+    <g key={`${x}-${y}`}>
+      <FlatToppedHex
+        x={x}
+        y={y}
+        size={size}
+        fill={randomColor().hexString()}
+        stroke="white"
+      />
+      <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
+    </g>
+    ));
 
   return (
     <svg width="1500" height="400">
@@ -102,7 +98,7 @@ story.add('draw', () => {
   const height = 25;
 
   const Hexes = gridPoints(type, size, oX, oY, width, height).map(({ center: [x, y], grid: [gridX, gridY] }) => (
-    <DrawHex key={`${gridX}-${gridY}`} x={x} y={y} size={size}/>
+    <DrawHex key={`${gridX}-${gridY}`} x={x} y={y} size={size} />
   ));
 
   return (
@@ -141,26 +137,26 @@ story.add('animation with transform', () => {
     render() {
       return (
         <g>
-          {this.renderHex(0, 100, "black")}
-          {this.renderHex(5,  95, "white")}
-          {this.renderHex(10, 90, "black")}
-          {this.renderHex(15, 85, "white")}
-          {this.renderHex(20, 80, "black")}
-          {this.renderHex(25, 75, "white")}
-          {this.renderHex(30, 70, "black")}
-          {this.renderHex(35, 65, "white")}
-          {this.renderHex(40, 60, "black")}
-          {this.renderHex(45, 55, "white")}
-          {this.renderHex(50, 50, "black")}
-          {this.renderHex(55, 45, "white")}
-          {this.renderHex(60, 40, "black")}
-          {this.renderHex(65, 35, "white")}
-          {this.renderHex(70, 30, "black")}
-          {this.renderHex(75, 25, "white")}
-          {this.renderHex(80, 20, "black")}
-          {this.renderHex(85, 15, "white")}
-          {this.renderHex(90, 10, "black")}
-          {this.renderHex(95,  5, "white")}
+          {this.renderHex(0, 100, 'black')}
+          {this.renderHex(5, 95, 'white')}
+          {this.renderHex(10, 90, 'black')}
+          {this.renderHex(15, 85, 'white')}
+          {this.renderHex(20, 80, 'black')}
+          {this.renderHex(25, 75, 'white')}
+          {this.renderHex(30, 70, 'black')}
+          {this.renderHex(35, 65, 'white')}
+          {this.renderHex(40, 60, 'black')}
+          {this.renderHex(45, 55, 'white')}
+          {this.renderHex(50, 50, 'black')}
+          {this.renderHex(55, 45, 'white')}
+          {this.renderHex(60, 40, 'black')}
+          {this.renderHex(65, 35, 'white')}
+          {this.renderHex(70, 30, 'black')}
+          {this.renderHex(75, 25, 'white')}
+          {this.renderHex(80, 20, 'black')}
+          {this.renderHex(85, 15, 'white')}
+          {this.renderHex(90, 10, 'black')}
+          {this.renderHex(95, 5, 'white')}
         </g>
       );
     }
@@ -210,8 +206,8 @@ story.add('loading icon', () => {
 
     render() {
       const size = this.props.size;
-      const BlackHex = <PointyToppedHex x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg}, ${size / 2}, ${size / 2})`} fill="black"/>
-      const WhiteHex = <PointyToppedHex x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg / 2}, ${size / 2}, ${size / 2})`} fill="white"/>
+      const BlackHex = <PointyToppedHex x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg}, ${size / 2}, ${size / 2})`} fill="black" />;
+      const WhiteHex = <PointyToppedHex x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg / 2}, ${size / 2}, ${size / 2})`} fill="white" />;
       return (
         <div>
           <svg width={`${size}`} height={`${size}`}>
@@ -225,10 +221,10 @@ story.add('loading icon', () => {
 
   return (
     <div>
-      Size 10: <Loader size={10}/>
-      Size 50: <Loader size={50}/>
-      Size 100: <Loader size={100}/>
-      Size 500: <Loader size={500}/>
+      Size 10: <Loader size={10} />
+      Size 50: <Loader size={50} />
+      Size 100: <Loader size={100} />
+      Size 500: <Loader size={500} />
     </div>
   );
 });
@@ -257,7 +253,7 @@ story.add('fill display', () => {
 
     render() {
       const Hexes = this.state.coodinates.map(([x, y]) => (
-        <PointyToppedHex x={x} y={y} size={50} fill="none" stroke="black" strokeOpacity="0.2"/>
+        <PointyToppedHex x={x} y={y} size={50} fill="none" stroke="black" strokeOpacity="0.2" />
       ));
 
       return (
@@ -269,6 +265,6 @@ story.add('fill display', () => {
   }
 
   return (
-    <Filler displaySize={500}/>
+    <Filler displaySize={500} />
   );
 });
