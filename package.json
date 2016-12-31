@@ -12,7 +12,7 @@
     "test:lint": "eslint {src,test,stories} --fix",
     "test:unit": "mocha --require jsdom-global/register --compilers babel-register --recursive test",
     "test:storybook": "NODE_ENV=test storyshots",
-    "prepublish": "npm test && npm run build",
+    "prepublish": "run-s test build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
