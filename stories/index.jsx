@@ -1,3 +1,2 @@
-import './PointyToppedHex.jsx';
-import './FlatToppedHex.jsx';
+import './Hex.jsx';
 import './examples.jsx';
