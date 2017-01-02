@@ -19,10 +19,9 @@ storiesOf('Hex', module)
       <Hex type="flat-topped" x={500} y={500} size={50} />
     </svg>
   ), { inline: true, propTables: [Hex] })
-  .addWithInfo('big size', () => (
+  .addWithInfo('big size', 'size is length of edge (radius of hex)', () => (
     <svg width="500" height="500" style={{ border: '1px solid' }}>
-      <Hex type="pointy-topped" x={150} y={250} size={50} />
-      <Hex type="flat-topped" x={350} y={250} size={50} />
+      <Hex type="pointy-topped" x={250} y={250} size={250} />
     </svg>
   ), { inline: true, propTables: [Hex] })
   .addWithInfo('pass through props', () => (
