@@ -88,5 +88,5 @@ export const gridPoint = (oType, oX, oY, size, gridX, gridY) => {
 };
 
 export const gridPoints = (oType, oX, oY, size, gridWidth, gridHeight) =>
-  product(gridWidth, gridHeight).map(([gridX, gridY]) =>
+  product(gridHeight, gridWidth).map(([gridY, gridX]) =>
     gridPoint(oType, oX, oY, size, gridX, gridY));
