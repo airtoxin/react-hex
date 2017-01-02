@@ -1,5 +1,4 @@
-/* eslint-disable no-mixed-operators */
-/* reason: optimize calculations */
+/* eslint-disable no-mixed-operators,consistent-return */
 
 const THETAS = [0, 1, 2, 3, 4, 5].map(i => Math.PI / 3 * i);
 const POINTY = 'pointy-topped';
