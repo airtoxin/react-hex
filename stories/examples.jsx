@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import seedrandom from 'seedrandom';
 import { storiesOf } from '@kadira/storybook';
-import { PointyToppedHex, FlatToppedHex, gridPoints } from '../src/index.jsx';
+import Hex, { gridPoints } from '../src/index.jsx';
 
 const rng = seedrandom(process.env.NODE_ENV);
 const story = storiesOf('-----examples-----', module);
@@ -14,8 +14,8 @@ story.add('README\'s example', () => {
   const width = 25;
   const height = 25;
 
-  const Hexes = gridPoints(type, size, oX, oY, width, height).map(({ center: [x, y], grid: [gridX, gridY] }) => (
-    <PointyToppedHex key={`${gridX}-${gridY}`} x={x} y={y} size={size} fill="white" stroke="black" />
+  const Hexes = gridPoints(type, oX, oY, size, width, height).map(({ props, gridX, gridY }) => (
+    <Hex key={`${gridX}-${gridY}`} {...props} fill="white" stroke="black" />
   ));
 
   return (
@@ -25,19 +25,17 @@ story.add('README\'s example', () => {
   );
 });
 
-story.add('PointyToppedHex grid system', () => {
+story.add('PointyTopped-Hex grid system', () => {
   const size = 30;
-  const Hexes = gridPoints('pointy-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => (
-    <g key={`${x}-${y}`}>
-      <PointyToppedHex
-        x={x}
-        y={y}
-        size={size}
+  const Hexes = gridPoints('pointy-topped', 100, 100, size, 10, 10).map(({ props, gridX, gridY }) => (
+    <g key={`${gridX}-${gridY}`}>
+      <Hex
+        {...props}
         fill="white"
         stroke="black"
         onClick={() => alert(`x=${x} y=${y}`)}
       />
-      <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
+      <text x={props.x - size / 2} y={props.y + size / 4}>{`${gridX},${gridY}`}</text>
     </g>
     ));
 
@@ -48,18 +46,16 @@ story.add('PointyToppedHex grid system', () => {
   );
 });
 
-story.add('FlatToppedHex grid system', () => {
+story.add('FlatTopped-Hex grid system', () => {
   const size = 30;
-  const Hexes = gridPoints('flat-topped', size, 100, 100, 10, 10).map(({ center: [x, y], grid: [gridX, gridY] }) => (
-    <g key={`${x}-${y}`}>
-      <FlatToppedHex
-        x={x}
-        y={y}
-        size={size}
+  const Hexes = gridPoints('flat-topped', 100, 100, size, 10, 10).map(({ props, gridX, gridY }) => (
+    <g key={`${gridX}-${gridY}`}>
+      <Hex
+        {...props}
         fill={`rgb(${Math.floor(rng() * 255)},${Math.floor(rng() * 255)},${Math.floor(rng() * 255)})`}
         stroke="white"
       />
-      <text x={x - size / 2} y={y + size / 4}>{`${gridX},${gridY}`}</text>
+      <text x={props.x - size / 2} y={props.y + size / 4}>{`${gridX},${gridY}`}</text>
     </g>
     ));
 
@@ -78,9 +74,10 @@ story.add('draw', () => {
     }
 
     render() {
-      const { x, y, size } = this.props;
+      const { type, x, y, size } = this.props;
       return (
-        <PointyToppedHex
+        <Hex
+          type={type}
           x={x}
           y={y}
           size={size}
@@ -98,8 +95,8 @@ story.add('draw', () => {
   const width = 25;
   const height = 25;
 
-  const Hexes = gridPoints(type, size, oX, oY, width, height).map(({ center: [x, y], grid: [gridX, gridY] }) => (
-    <DrawHex key={`${gridX}-${gridY}`} x={x} y={y} size={size} />
+  const Hexes = gridPoints(type, oX, oY, size, width, height).map(({ props, gridX, gridY }) => (
+    <DrawHex key={`${gridX}-${gridY}`} {...props} />
   ));
 
   return (
@@ -164,7 +161,8 @@ story.add('animation with transform', () => {
 
     renderHex(baseDeg, size, color) {
       return (
-        <PointyToppedHex
+        <Hex
+          type="pointy-topped"
           x={250}
           y={250}
           size={size}
@@ -207,8 +205,8 @@ story.add('loading icon', () => {
 
     render() {
       const size = this.props.size;
-      const BlackHex = <PointyToppedHex x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg}, ${size / 2}, ${size / 2})`} fill="black" />;
-      const WhiteHex = <PointyToppedHex x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg / 2}, ${size / 2}, ${size / 2})`} fill="white" />;
+      const BlackHex = <Hex type="pointy-topped" x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg}, ${size / 2}, ${size / 2})`} fill="black" />;
+      const WhiteHex = <Hex type="pointy-topped" x={size / 2} y={size / 2} size={size / 5 * 2} transform={`rotate(${this.state.deg / 2}, ${size / 2}, ${size / 2})`} fill="white" />;
       return (
         <div>
           <svg width={`${size}`} height={`${size}`}>
@@ -254,7 +252,7 @@ story.add('fill display', () => {
 
     render() {
       const Hexes = this.state.coodinates.map(([x, y]) => (
-        <PointyToppedHex x={x} y={y} size={50} fill="none" stroke="black" strokeOpacity="0.2" />
+        <Hex type="pointy-topped" key={`${x}-${y}`} x={x} y={y} size={50} fill="none" stroke="black" strokeOpacity="0.2" />
       ));
 
       return (

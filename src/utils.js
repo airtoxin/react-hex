@@ -50,9 +50,15 @@ export const gridPoint = (oType, oX, oY, size, gridX, gridY) => {
     const y = gridPointY + oY;
 
     return {
-      center: [x, y],
+      props: {
+        type: oType,
+        x,
+        y,
+        size,
+      },
+      gridX,
+      gridY,
       corners: hexCorners(oType, x, y, size),
-      grid: [gridX, gridY],
     };
   } else if (oType === FLAT) {
     const width = size * 2;
@@ -65,9 +71,15 @@ export const gridPoint = (oType, oX, oY, size, gridX, gridY) => {
     const y = gridPointY + oY;
 
     return {
-      center: [x, y],
+      props: {
+        type: oType,
+        x,
+        y,
+        size,
+      },
+      gridX,
+      gridY,
       corners: hexCorners(oType, x, y, size),
-      grid: [gridX, gridY],
     };
   } else {
     throw new Error(`grid oType was either ${POINTY} or ${FLAT}`);
@@ -76,5 +88,5 @@ export const gridPoint = (oType, oX, oY, size, gridX, gridY) => {
 };
 
 export const gridPoints = (oType, oX, oY, size, gridWidth, gridHeight) =>
-  product(gridHeight, gridWidth).map(([gridY, gridX]) =>
-    gridPoint(oType, size, gridX, gridY, oX, oY));
+  product(gridWidth, gridHeight).map(([gridX, gridY]) =>
+    gridPoint(oType, oX, oY, size, gridX, gridY));
