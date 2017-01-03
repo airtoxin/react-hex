@@ -6,102 +6,80 @@ draw svg hexagonal grid with react
 
 `$ npm i react-hex`
 
-## Usage
+## Example
 
-```js
+```javascript
 import React from 'react';
-import { PointyToppedHex, gridPoints } from '../src/index.jsx';
+import ReactDom from 'react-dom';
+import Hex, { gridPoints } from 'react-hex';
 
-export default () => {
-  const type = 'pointy-topped';
-  const size = 10;
-  const oX = 100;
-  const oY = 100;
-  const width = 25;
-  const height = 25;
-
-  const Hexes = gridPoints(type, size, oX, oY, width, height).map(({ center: [x, y], grid: [gridX, gridY] }) =>
-    <PointyToppedHex key={`${gridX}-${gridY}`} x={x} y={y} size={size} fill="white" stroke="black" />);
-  return (
-    <div>
-      <h2>PointyToppedHex</h2>
-      <svg width={900} height={600}>
-        {Hexes}
-      </svg>
-    </div>
-  );
+const Hexes = () => {
+  const hexes = gridPoints('pointy-topped', 100, 100, 10, 25, 25).map(({ props }) => (
+    <Hex {...props} fill="white" stroke="black" />
+  ));
 
   return (
-    <svg width="1000" height="1000">
-      {Hexes}
+    <svg width="500" height="500">
+      {hexes}
     </svg>
   );
 };
+
+ReactDom.render(<Hexes />); document.getElementById('example'));
 ```
 
 ![hexes](images/usage-example.png)
 
-see `dev` directory
+More examples, see [Storybook](https://airtoxin.github.io/react-hex).
 
 ## Documents
 
-First, [Hexagonal Grids](http://www.redblobgames.com/grids/hexagons/) article helps you to understand grid system.
+### `<Hex type={} x={} y={} size={}/>` (default exported)
 
-All functions were named exported so you can use `import { NAME } from 'react-hex';`
+Main React component of hex.
 
-### `<PointyToppedHex x={} y={} size={}/>`
+################## Insert props table here
 
-React component of a pointy topped hexagon. Those props used for hexagon location.
+```js
+import Hex from 'react-hex';
 
-| name | type   | description         | required | default |
-|------|--------|---------------------|----------|---------|
-| x    | number | center coordinate x | yes      | -       |
-| y    | number | center coordinate y | yes      | -       |
-| size | number | edge size           | yes      | -       |
+<Hex type="pointy-topped" x={0} y={0} size={50} />
+```
 
-The other props are passed to underlay svg polygon element.
+### `gridPoint(oType, oX, oY, size, gridX, gridY)`
 
-### `<FlatToppedHex x={} y={} size={}/>`
+__return: `{ props: { type, x, y, size }, gridX, gridY }`__
 
-React component of a flat topped hexagon. Those props used for hexagon location.
+Helper function to calculate hex location in grid.
+`props` field in returning object of this function can use for props of `Hex` component.
 
-| name | type   | description         | required | default |
-|------|--------|---------------------|----------|---------|
-| x    | number | center coordinate x | yes      | -       |
-| y    | number | center coordinate y | yes      | -       |
-| size | number | edge size           | yes      | -       |
+(prefix `o` means original.)
 
-The other props are passed to underlay svg polygon element.
+################## Insert props table here
 
-### `gridPoint(type, size, gridX, gridY, oX=0, oY=0)`
+```js
+import Triangle, { gridPoint } from 'react-hex';
 
-__return: `{ center: [x, y], grid: [gridX, gridY], corners: [[cx0, cy0] ... [cx5, cy5]] }`__
+const { props } = gridPoint('pointy-topped', 0, 0, 50, 3, 4);
+```
 
-Helper function to calculate hexagon location in grid.
+### `gridPoints(oDirection, oX, oY, size, girdWidth, gridHeight)`
 
-| name  | type        | description                                         | required | default |
-|-------|-------------|-----------------------------------------------------|----------|---------|
-| type  | enum string | hexagon type (`'pointy-topped'` or `'flat-topped'`) | yes      | -       |
-| size  | number      | hexagon size                                        | yes      | -       |
-| gridX | number      | coordinate x in hexagonal grid system               | yes      | -       |
-| gridY | number      | coordinate y in hexagonal grid system               | yes      | -       |
-| oX    | number      | origin x in pixel grid system                       | no       | 0       |
-| oY    | number      | origin y in pixel grid system                       | no       | 0       |
+__return: `[ { props: { type, x, y, size }, gridX, gridY }, ... ]`__
 
-### `gridPoints(type, size, oX, oY, gridWidth, gridHeight)`
+Helper function to bulk calculate hexes location of grid.
 
-__return: `[ { center: [x, y], grid: [gridX, gridY], corners: [[cx0, cy0] ... [cx5, cy5]] } ...]`__
+(prefix `o` means original.)
 
-Helper function to bulk calculate hexagon location in grid.
+################## Insert props table here
 
-| name      | type        | description                                         | required | default |
-|-----------|-------------|-----------------------------------------------------|----------|---------|
-| type      | enum string | hexagon type (`'pointy-topped'` or `'flat-topped'`) | yes      | -       |
-| size      | number      | hexagon size                                        | yes      | -       |
-| oX        | number      | origin x in pixel grid system                       | yes      | -       |
-| oY        | number      | origin y in pixel grid system                       | yes      | -       |
-| gridWidth | integer     | grid width                                          | yes      | -       |
-| gridHeigh | integer     | grid height                                         | yes      | -       |
+```js
+import Hex, { gridPoints } from 'react-hex';
+
+const triangles = gridPoints('pointy-topped', 100, 100, 50, 5, 5).map(({ props, gridX, gridY }) = (
+  <Hex key={`${gridX}-${gridY}`} {...props}/>
+));
+```
 
 __pointy topped grid coordinate x,y__
 
