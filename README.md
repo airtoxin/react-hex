@@ -34,11 +34,16 @@ More examples, see [Storybook](https://airtoxin.github.io/react-hex).
 
 ## Documents
 
-### `<Hex type={} x={} y={} size={}/>` (default exported)
+### `<Hex type={} x={} y={} size={} />` (default exported)
 
 Main React component of hex.
 
-################## Insert props table here
+| name | value type                                                   | description                             |
+|------|--------------------------------------------------------------|-----------------------------------------|
+| type | PropTypes.oneOf(['pointy-topped', 'flat-topped']).isRequired | hexagon type                            |
+| x    | PropTypes.number.isRequired                                  | hexagon's center coordinate x  |
+| y    | PropTypes.number.isRequired                                  | hexagon's center coordinate y  |
+| size | PropTypes.number.isRequired                                  | hexagon edge length                     |
 
 ```js
 import Hex from 'react-hex';
@@ -55,7 +60,14 @@ Helper function to calculate hex location in grid.
 
 (prefix `o` means original.)
 
-################## Insert props table here
+| name  | value type                       | description                             |
+|-------|----------------------------------|-----------------------------------------|
+| oType | 'pointy-topped' or 'flat-topped' | original hexagon type                   |
+| oX    | number                           | original hexagon's center coordinate x  |
+| oY    | number                           | original hexagon's center coordinate y  |
+| size  | number                           | hexagon edge length                     |
+| gridX | number                           | coordinate x in hexagonal grid system   |
+| gridY | number                           | coordinate y in hexagonal grid system   |
 
 ```js
 import Triangle, { gridPoint } from 'react-hex';
@@ -71,7 +83,14 @@ Helper function to bulk calculate hexes location of grid.
 
 (prefix `o` means original.)
 
-################## Insert props table here
+| name       | value type                       | description                             |
+|------------|----------------------------------|-----------------------------------------|
+| oType      | 'pointy-topped' or 'flat-topped' | original hexagon type                   |
+| oX         | number                           | original hexagon's center coordinate x  |
+| oY         | number                           | original hexagon's center coordinate y  |
+| size       | number                           | hexagon edge length                     |
+| gridWidth  | number                           | grid size of x                          |
+| gridHeight | number                           | grid size of y                          |
 
 ```js
 import Hex, { gridPoints } from 'react-hex';
