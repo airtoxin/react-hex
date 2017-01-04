@@ -1,215 +1,209 @@
 exports[`big size`] = `
 <div>
-  <div
-    style={undefined}>
-    <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
-      <div
-        style={
-          Object {
-            "borderBottom": "1px solid #eee",
-            "marginBottom": 10,
-          }
-        }>
-        <h1
-          style={
-            Object {
-              "fontSize": 35,
-              "margin": "20px 0 0 0",
-              "padding": 0,
-            }
-          }>
-          Hex
-        </h1>
-        <h2
-          style={
-            Object {
-              "fontSize": 22,
-              "fontWeight": 400,
-              "margin": "0 0 10px 0",
-              "padding": 0,
-            }
-          }>
-          big size
-        </h2>
-      </div>
-    </div>
-  </div>
   <div>
-    <div>
-      <svg
-        height="500"
-        style={
-          Object {
-            "border": "1px solid",
-          }
-        }
-        width="500">
-        <polygon
-          points="466.5063509461097,375 250.00000000000003,500 33.49364905389038,375.0000000000001 33.493649053890294,125.00000000000007 249.99999999999994,0 466.5063509461096,124.99999999999989"
-          size={250}
-          type="pointy-topped"
-          x={250}
-          y={250} />
-      </svg>
-    </div>
-  </div>
-  <div
-    style={undefined}>
     <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
+      style={undefined}>
       <div
         style={
           Object {
-            "marginBottom": 0,
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
           }
         }>
-        <p
+        <div
           style={
             Object {
-              "WebkitFontSmoothing": "antialiased",
-              "color": "#444",
-              "fontFamily": "
-                -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-              ",
-              "fontSize": 15,
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
             }
           }>
-          size is length of edge (radius of hex)
-        </p>
+          <h1
+            style={
+              Object {
+                "fontSize": 35,
+                "margin": "20px 0 0 0",
+                "padding": 0,
+              }
+            }>
+            Hex
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": 22,
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }>
+            big size
+          </h2>
+        </div>
       </div>
+    </div>
+    <div>
       <div>
-        <h1
+        <svg
+          height="500"
           style={
             Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
+              "border": "1px solid",
             }
-          }>
-          Story Source
-        </h1>
-        <pre
+          }
+          width="500">
+          <polygon
+            points="466.5063509461097,375 250.00000000000003,500 33.49364905389038,375.0000000000001 33.493649053890294,125.00000000000007 249.99999999999994,0 466.5063509461096,124.99999999999989"
+            size={250}
+            type="pointy-topped"
+            x={250}
+            y={250} />
+        </svg>
+      </div>
+    </div>
+    <div
+      style={undefined}>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+          }
+        }>
+        <div
           style={
             Object {
-              "backgroundColor": "#fafafa",
-              "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
-              "fontSize": ".88em",
-              "lineHeight": 1.5,
-              "overflowX": "scroll",
-              "padding": ".5rem",
+              "marginBottom": 0,
             }
           }>
-          <div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
+          <p
+            style={
+              Object {
+                "WebkitFontSmoothing": "antialiased",
+                "color": "#444",
+                "fontFamily": "
+                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                ",
+                "fontSize": 15,
+              }
+            }>
+            size is length of edge (radius of hex)
+          </p>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }>
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontSize": ".88em",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }>
+            <div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
                   }
                 }>
-                <
-                svg
-              </span>
-              <span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    width
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
-                    </span>
-                  </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  svg
                 </span>
                 <span>
-                   
-                  <span
-                    style={Object {}}>
-                    height
-                  </span>
                   <span>
-                    =
+                     
                     <span
                       style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
+                      width
                     </span>
-                  </span>
-                </span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    style
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
                         <span
                           style={
                             Object {
-                              "color": "#666",
+                              "color": "#22a",
+                              "wordBreak": "break-word",
                             }
                           }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      height
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
                           {
                           <span
                             style={
@@ -217,509 +211,546 @@ exports[`big size`] = `
                                 "color": "#666",
                               }
                             }>
-                            border
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }>
+                              border
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }>
+                              \"
+                              1px solid
+                              \"
+                            </span>
+                            }
                           </span>
-                          : 
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  >
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          pointy-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
                           <span
                             style={
                               Object {
-                                "color": "#22a",
-                                "wordBreak": "break-word",
+                                "color": "#a11",
                               }
                             }>
-                            \"
-                            1px solid
-                            \"
+                            250
                           </span>
                           }
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                  
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                >
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
                           }
-                        }>
-                        \"
-                        pointy-topped
-                        \"
+                        </span>
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
+                      size
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
+                          }
                         </span>
-                        }
                       </span>
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
                     <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
-                    </span>
                   </span>
                 </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                  <br />
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
                 </span>
-              </span>
-              <span
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
                   }
                 }>
-                />
-              </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  </
+                  svg
+                  >
+                </span>
+              </div>
             </div>
-            <div
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }>
+            Prop Types
+          </h1>
+          <div>
+            <h2
               style={
                 Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
+                  "margin": "20px 0 0 0",
                 }
               }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                </
-                svg
-                >
-              </span>
-            </div>
+              \"
+              Hex
+              \" Component
+            </h2>
+            <table
+              style={
+                Object {
+                  "borderCollapse": "separate",
+                  "borderSpacing": "10px 5px",
+                  "marginLeft": -10,
+                }
+              }>
+              <thead>
+                <tr>
+                  <th>
+                    property
+                  </th>
+                  <th>
+                    propType
+                  </th>
+                  <th>
+                    required
+                  </th>
+                  <th>
+                    default
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    size
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    type
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    x
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    y
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-        </pre>
-      </div>
-      <div>
-        <h1
-          style={
-            Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
-            }
-          }>
-          Prop Types
-        </h1>
-        <div>
-          <h2
-            style={
-              Object {
-                "margin": "20px 0 0 0",
-              }
-            }>
-            \"
-            Hex
-            \" Component
-          </h2>
-          <table
-            style={
-              Object {
-                "borderCollapse": "separate",
-                "borderSpacing": "10px 5px",
-                "marginLeft": -10,
-              }
-            }>
-            <thead>
-              <tr>
-                <th>
-                  property
-                </th>
-                <th>
-                  propType
-                </th>
-                <th>
-                  required
-                </th>
-                <th>
-                  default
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  size
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  type
-                </td>
-                <td>
-                  other
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  x
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  y
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </div>
     </div>
   </div>
+  <base
+    target="_parent" />
+  <a
+    className="github-corner"
+    href="/">
+    <svg
+      height={80}
+      style={
+        Object {
+          "fill": "#fff",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      viewBox="0 0 250 250"
+      width={80}>
+      <path
+        className="octo-banner"
+        d="M0 0l115 115h15l12 27 108 108V0z"
+        fill="#151513" />
+      <path
+        className="octo-arm"
+        d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+        style={
+          Object {
+            "WebkitTransformOrigin": "130px 106px",
+            "transformOrigin": "130px 106px",
+          }
+        } />
+      <path
+        className="octo-body"
+        d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z" />
+    </svg>
+  </a>
 </div>
 `;
 
 exports[`pass through props`] = `
 <div>
-  <div
-    style={undefined}>
+  <div>
     <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
+      style={undefined}>
       <div
         style={
           Object {
-            "borderBottom": "1px solid #eee",
-            "marginBottom": 10,
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
           }
         }>
-        <h1
+        <div
           style={
             Object {
-              "fontSize": 35,
-              "margin": "20px 0 0 0",
-              "padding": 0,
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
             }
           }>
-          Hex
-        </h1>
-        <h2
-          style={
-            Object {
-              "fontSize": 22,
-              "fontWeight": 400,
-              "margin": "0 0 10px 0",
-              "padding": 0,
-            }
-          }>
-          pass through props
-        </h2>
+          <h1
+            style={
+              Object {
+                "fontSize": 35,
+                "margin": "20px 0 0 0",
+                "padding": 0,
+              }
+            }>
+            Hex
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": 22,
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }>
+            pass through props
+          </h2>
+        </div>
       </div>
     </div>
-  </div>
-  <div>
     <div>
-      <svg
-        height="500"
+      <div>
+        <svg
+          height="500"
+          style={
+            Object {
+              "border": "1px solid",
+            }
+          }
+          width="500">
+          <polygon
+            fill="none"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            points="336.6025403784439,300 250,350 163.39745962155615,300.00000000000006 163.39745962155612,200.00000000000003 249.99999999999997,150 336.60254037844385,199.99999999999994"
+            size={100}
+            stroke="black"
+            strokeWidth="50"
+            transform="rotate(15,250,250)"
+            type="pointy-topped"
+            x={250}
+            y={250} />
+        </svg>
+      </div>
+    </div>
+    <div
+      style={undefined}>
+      <div
         style={
           Object {
-            "border": "1px solid",
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
           }
-        }
-        width="500">
-        <polygon
-          fill="none"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          points="336.6025403784439,300 250,350 163.39745962155615,300.00000000000006 163.39745962155612,200.00000000000003 249.99999999999997,150 336.60254037844385,199.99999999999994"
-          size={100}
-          stroke="black"
-          strokeWidth="50"
-          transform="rotate(15,250,250)"
-          type="pointy-topped"
-          x={250}
-          y={250} />
-      </svg>
-    </div>
-  </div>
-  <div
-    style={undefined}>
-    <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
-      
-      <div>
-        <h1
-          style={
-            Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
-            }
-          }>
-          Story Source
-        </h1>
-        <pre
-          style={
-            Object {
-              "backgroundColor": "#fafafa",
-              "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
-              "fontSize": ".88em",
-              "lineHeight": 1.5,
-              "overflowX": "scroll",
-              "padding": ".5rem",
-            }
-          }>
-          <div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
+        }>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }>
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontSize": ".88em",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }>
+            <div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
                   }
                 }>
-                <
-                svg
-              </span>
-              <span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    width
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
-                    </span>
-                  </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  svg
                 </span>
                 <span>
-                   
-                  <span
-                    style={Object {}}>
-                    height
-                  </span>
                   <span>
-                    =
+                     
                     <span
                       style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
+                      width
                     </span>
-                  </span>
-                </span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    style
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
                         <span
                           style={
                             Object {
-                              "color": "#666",
+                              "color": "#22a",
+                              "wordBreak": "break-word",
                             }
                           }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      height
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
                           {
                           <span
                             style={
@@ -727,685 +758,722 @@ exports[`pass through props`] = `
                                 "color": "#666",
                               }
                             }>
-                            border
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }>
+                              border
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }>
+                              \"
+                              1px solid
+                              \"
+                            </span>
+                            }
                           </span>
-                          : 
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  >
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          pointy-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
                           <span
                             style={
                               Object {
-                                "color": "#22a",
-                                "wordBreak": "break-word",
+                                "color": "#a11",
                               }
                             }>
-                            \"
-                            1px solid
-                            \"
+                            250
                           </span>
                           }
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                  
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      size
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            100
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      fill
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          none
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      stroke
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          black
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      strokeWidth
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          50
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      transform
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          rotate(15,250,250)
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      onClick
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#170",
+                              }
+                            }>
+                            anonymous()
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      onMouseEnter
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#170",
+                              }
+                            }>
+                            anonymous()
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    <br />
+                  </span>
                 </span>
-              </span>
-              <span
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
                   }
                 }>
-                >
-              </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  </
+                  svg
+                  >
+                </span>
+              </div>
             </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        pointy-topped
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          100
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    fill
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        none
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    stroke
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        black
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    strokeWidth
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        50
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    transform
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        rotate(15,250,250)
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    onClick
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#170",
-                            }
-                          }>
-                          anonymous()
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    onMouseEnter
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#170",
-                            }
-                          }>
-                          anonymous()
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                  <br />
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                </
-                svg
-                >
-              </span>
-            </div>
-          </div>
-        </pre>
-      </div>
-      <div>
-        <h1
-          style={
-            Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
-            }
-          }>
-          Prop Types
-        </h1>
+          </pre>
+        </div>
         <div>
-          <h2
+          <h1
             style={
               Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
                 "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
               }
             }>
-            \"
-            Hex
-            \" Component
-          </h2>
-          <table
-            style={
-              Object {
-                "borderCollapse": "separate",
-                "borderSpacing": "10px 5px",
-                "marginLeft": -10,
-              }
-            }>
-            <thead>
-              <tr>
-                <th>
-                  property
-                </th>
-                <th>
-                  propType
-                </th>
-                <th>
-                  required
-                </th>
-                <th>
-                  default
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  size
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  type
-                </td>
-                <td>
-                  other
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  x
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  y
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }>
+              \"
+              Hex
+              \" Component
+            </h2>
+            <table
+              style={
+                Object {
+                  "borderCollapse": "separate",
+                  "borderSpacing": "10px 5px",
+                  "marginLeft": -10,
+                }
+              }>
+              <thead>
+                <tr>
+                  <th>
+                    property
+                  </th>
+                  <th>
+                    propType
+                  </th>
+                  <th>
+                    required
+                  </th>
+                  <th>
+                    default
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    size
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    type
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    x
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    y
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <base
+    target="_parent" />
+  <a
+    className="github-corner"
+    href="/">
+    <svg
+      height={80}
+      style={
+        Object {
+          "fill": "#fff",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      viewBox="0 0 250 250"
+      width={80}>
+      <path
+        className="octo-banner"
+        d="M0 0l115 115h15l12 27 108 108V0z"
+        fill="#151513" />
+      <path
+        className="octo-arm"
+        d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+        style={
+          Object {
+            "WebkitTransformOrigin": "130px 106px",
+            "transformOrigin": "130px 106px",
+          }
+        } />
+      <path
+        className="octo-body"
+        d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z" />
+    </svg>
+  </a>
 </div>
 `;
 
 exports[`place in corner`] = `
 <div>
-  <div
-    style={undefined}>
+  <div>
     <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
+      style={undefined}>
       <div
         style={
           Object {
-            "borderBottom": "1px solid #eee",
-            "marginBottom": 10,
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
           }
         }>
-        <h1
+        <div
           style={
             Object {
-              "fontSize": 35,
-              "margin": "20px 0 0 0",
-              "padding": 0,
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
             }
           }>
-          Hex
-        </h1>
-        <h2
-          style={
-            Object {
-              "fontSize": 22,
-              "fontWeight": 400,
-              "margin": "0 0 10px 0",
-              "padding": 0,
-            }
-          }>
-          place in corner
-        </h2>
+          <h1
+            style={
+              Object {
+                "fontSize": 35,
+                "margin": "20px 0 0 0",
+                "padding": 0,
+              }
+            }>
+            Hex
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": 22,
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }>
+            place in corner
+          </h2>
+        </div>
       </div>
     </div>
-  </div>
-  <div>
     <div>
-      <svg
-        height="500"
+      <div>
+        <svg
+          height="500"
+          style={
+            Object {
+              "border": "1px solid",
+            }
+          }
+          width="500">
+          <polygon
+            points="43.30127018922194,24.999999999999996 3.061616997868383e-15,50 -43.301270189221924,25.000000000000018 -43.30127018922194,-24.999999999999986 -9.184850993605149e-15,-50 43.30127018922192,-25.00000000000002"
+            size={50}
+            type="pointy-topped"
+            x={0}
+            y={0} />
+          <polygon
+            points="543.3012701892219,24.999999999999996 500,50 456.6987298107781,25.000000000000018 456.69872981077805,-24.999999999999986 500,-50 543.3012701892219,-25.00000000000002"
+            size={50}
+            type="pointy-topped"
+            x={500}
+            y={0} />
+          <polygon
+            points="50,500 25.000000000000007,543.3012701892219 -24.99999999999999,543.3012701892219 -50,500 -25.00000000000002,456.6987298107781 24.999999999999968,456.69872981077805"
+            size={50}
+            type="flat-topped"
+            x={0}
+            y={500} />
+          <polygon
+            points="550,500 525,543.3012701892219 475,543.3012701892219 450,500 475,456.6987298107781 525,456.69872981077805"
+            size={50}
+            type="flat-topped"
+            x={500}
+            y={500} />
+        </svg>
+      </div>
+    </div>
+    <div
+      style={undefined}>
+      <div
         style={
           Object {
-            "border": "1px solid",
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
           }
-        }
-        width="500">
-        <polygon
-          points="43.30127018922194,24.999999999999996 3.061616997868383e-15,50 -43.301270189221924,25.000000000000018 -43.30127018922194,-24.999999999999986 -9.184850993605149e-15,-50 43.30127018922192,-25.00000000000002"
-          size={50}
-          type="pointy-topped"
-          x={0}
-          y={0} />
-        <polygon
-          points="543.3012701892219,24.999999999999996 500,50 456.6987298107781,25.000000000000018 456.69872981077805,-24.999999999999986 500,-50 543.3012701892219,-25.00000000000002"
-          size={50}
-          type="pointy-topped"
-          x={500}
-          y={0} />
-        <polygon
-          points="50,500 25.000000000000007,543.3012701892219 -24.99999999999999,543.3012701892219 -50,500 -25.00000000000002,456.6987298107781 24.999999999999968,456.69872981077805"
-          size={50}
-          type="flat-topped"
-          x={0}
-          y={500} />
-        <polygon
-          points="550,500 525,543.3012701892219 475,543.3012701892219 450,500 475,456.6987298107781 525,456.69872981077805"
-          size={50}
-          type="flat-topped"
-          x={500}
-          y={500} />
-      </svg>
-    </div>
-  </div>
-  <div
-    style={undefined}>
-    <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
-      
-      <div>
-        <h1
-          style={
-            Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
-            }
-          }>
-          Story Source
-        </h1>
-        <pre
-          style={
-            Object {
-              "backgroundColor": "#fafafa",
-              "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
-              "fontSize": ".88em",
-              "lineHeight": 1.5,
-              "overflowX": "scroll",
-              "padding": ".5rem",
-            }
-          }>
-          <div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
+        }>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }>
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontSize": ".88em",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }>
+            <div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
                   }
                 }>
-                <
-                svg
-              </span>
-              <span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    width
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
-                    </span>
-                  </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  svg
                 </span>
                 <span>
-                   
-                  <span
-                    style={Object {}}>
-                    height
-                  </span>
                   <span>
-                    =
+                     
                     <span
                       style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
+                      width
                     </span>
-                  </span>
-                </span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    style
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
                         <span
                           style={
                             Object {
-                              "color": "#666",
+                              "color": "#22a",
+                              "wordBreak": "break-word",
                             }
                           }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      height
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
                           {
                           <span
                             style={
@@ -1413,956 +1481,993 @@ exports[`place in corner`] = `
                                 "color": "#666",
                               }
                             }>
-                            border
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }>
+                              border
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }>
+                              \"
+                              1px solid
+                              \"
+                            </span>
+                            }
                           </span>
-                          : 
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  >
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          pointy-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
                           <span
                             style={
                               Object {
-                                "color": "#22a",
-                                "wordBreak": "break-word",
+                                "color": "#a11",
                               }
                             }>
-                            \"
-                            1px solid
-                            \"
+                            0
                           </span>
                           }
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                  
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                >
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            0
+                          </span>
                           }
-                        }>
-                        \"
-                        pointy-topped
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          0
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          0
-                        </span>
-                        }
-                      </span>
+                    <span>
+                      <br />
+                        
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          50
-                        </span>
-                        }
-                      </span>
+                      size
                     </span>
-                  </span>
-                  <br />
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            50
+                          </span>
                           }
-                        }>
-                        \"
-                        pointy-topped
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          500
                         </span>
-                        }
                       </span>
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
                     <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          0
-                        </span>
-                        }
-                      </span>
-                    </span>
                   </span>
                 </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          50
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                  <br />
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
                 </span>
-              </span>
-              <span
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
                   }
                 }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
                 <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        flat-topped
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
+                        style={Object {}}>
                         <span
                           style={
                             Object {
-                              "color": "#a11",
+                              "color": "#22a",
+                              "wordBreak": "break-word",
                             }
                           }>
-                          0
+                          \"
+                          pointy-topped
+                          \"
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          500
-                        </span>
-                        }
-                      </span>
+                    <span>
+                      <br />
+                        
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          50
-                        </span>
-                        }
-                      </span>
+                      x
                     </span>
-                  </span>
-                  <br />
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            500
+                          </span>
                           }
-                        }>
-                        \"
-                        flat-topped
-                        \"
+                        </span>
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          500
+                      y
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            0
+                          </span>
+                          }
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          500
+                      size
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            50
+                          </span>
+                          }
                         </span>
-                        }
                       </span>
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
                     <br />
-                      
                   </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          50
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                  <br />
                 </span>
-              </span>
-              <span
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
                   }
                 }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          flat-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            0
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            500
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      size
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            50
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
                   }
                 }>
-                </
-                svg
-                >
-              </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          flat-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            500
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            500
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      size
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            50
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  </
+                  svg
+                  >
+                </span>
+              </div>
             </div>
-          </div>
-        </pre>
-      </div>
-      <div>
-        <h1
-          style={
-            Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
-            }
-          }>
-          Prop Types
-        </h1>
+          </pre>
+        </div>
         <div>
-          <h2
+          <h1
             style={
               Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
                 "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
               }
             }>
-            \"
-            Hex
-            \" Component
-          </h2>
-          <table
-            style={
-              Object {
-                "borderCollapse": "separate",
-                "borderSpacing": "10px 5px",
-                "marginLeft": -10,
-              }
-            }>
-            <thead>
-              <tr>
-                <th>
-                  property
-                </th>
-                <th>
-                  propType
-                </th>
-                <th>
-                  required
-                </th>
-                <th>
-                  default
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  size
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  type
-                </td>
-                <td>
-                  other
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  x
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  y
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }>
+              \"
+              Hex
+              \" Component
+            </h2>
+            <table
+              style={
+                Object {
+                  "borderCollapse": "separate",
+                  "borderSpacing": "10px 5px",
+                  "marginLeft": -10,
+                }
+              }>
+              <thead>
+                <tr>
+                  <th>
+                    property
+                  </th>
+                  <th>
+                    propType
+                  </th>
+                  <th>
+                    required
+                  </th>
+                  <th>
+                    default
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    size
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    type
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    x
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    y
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <base
+    target="_parent" />
+  <a
+    className="github-corner"
+    href="/">
+    <svg
+      height={80}
+      style={
+        Object {
+          "fill": "#fff",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      viewBox="0 0 250 250"
+      width={80}>
+      <path
+        className="octo-banner"
+        d="M0 0l115 115h15l12 27 108 108V0z"
+        fill="#151513" />
+      <path
+        className="octo-arm"
+        d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+        style={
+          Object {
+            "WebkitTransformOrigin": "130px 106px",
+            "transformOrigin": "130px 106px",
+          }
+        } />
+      <path
+        className="octo-body"
+        d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z" />
+    </svg>
+  </a>
 </div>
 `;
 
 exports[`simple usage`] = `
 <div>
-  <div
-    style={undefined}>
-    <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
-      <div
-        style={
-          Object {
-            "borderBottom": "1px solid #eee",
-            "marginBottom": 10,
-          }
-        }>
-        <h1
-          style={
-            Object {
-              "fontSize": 35,
-              "margin": "20px 0 0 0",
-              "padding": 0,
-            }
-          }>
-          Hex
-        </h1>
-        <h2
-          style={
-            Object {
-              "fontSize": 22,
-              "fontWeight": 400,
-              "margin": "0 0 10px 0",
-              "padding": 0,
-            }
-          }>
-          simple usage
-        </h2>
-      </div>
-    </div>
-  </div>
   <div>
-    <div>
-      <svg
-        height="500"
-        style={
-          Object {
-            "border": "1px solid",
-          }
-        }
-        width="500">
-        <polygon
-          points="193.30127018922195,275 150,300 106.69872981077808,275 106.69872981077806,225 150,200 193.30127018922192,224.99999999999997"
-          size={50}
-          type="pointy-topped"
-          x={150}
-          y={250} />
-        <circle
-          cx={150}
-          cy={250}
-          fill="white"
-          r={3} />
-        <polygon
-          points="400,250 375,293.30127018922195 325,293.30127018922195 300,250 325,206.69872981077808 374.99999999999994,206.69872981077805"
-          size={50}
-          type="flat-topped"
-          x={350}
-          y={250} />
-        <circle
-          cx={350}
-          cy={250}
-          fill="white"
-          r={3} />
-      </svg>
-    </div>
-  </div>
-  <div
-    style={undefined}>
     <div
-      style={
-        Object {
-          "WebkitFontSmoothing": "antialiased",
-          "color": "#444",
-          "fontFamily": "
-            -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-            \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-          ",
-          "fontSize": 15,
-          "fontWeight": 300,
-          "lineHeight": 1.45,
-        }
-      }>
+      style={undefined}>
       <div
         style={
           Object {
-            "marginBottom": 0,
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
           }
         }>
-        <p
+        <div
           style={
             Object {
-              "WebkitFontSmoothing": "antialiased",
-              "color": "#444",
-              "fontFamily": "
-                -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
-              ",
-              "fontSize": 15,
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
             }
           }>
-          white point is center of hex
-        </p>
+          <h1
+            style={
+              Object {
+                "fontSize": 35,
+                "margin": "20px 0 0 0",
+                "padding": 0,
+              }
+            }>
+            Hex
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": 22,
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }>
+            simple usage
+          </h2>
+        </div>
       </div>
+    </div>
+    <div>
       <div>
-        <h1
+        <svg
+          height="500"
           style={
             Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
+              "border": "1px solid",
             }
-          }>
-          Story Source
-        </h1>
-        <pre
+          }
+          width="500">
+          <polygon
+            points="193.30127018922195,275 150,300 106.69872981077808,275 106.69872981077806,225 150,200 193.30127018922192,224.99999999999997"
+            size={50}
+            type="pointy-topped"
+            x={150}
+            y={250} />
+          <circle
+            cx={150}
+            cy={250}
+            fill="white"
+            r={3} />
+          <polygon
+            points="400,250 375,293.30127018922195 325,293.30127018922195 300,250 325,206.69872981077808 374.99999999999994,206.69872981077805"
+            size={50}
+            type="flat-topped"
+            x={350}
+            y={250} />
+          <circle
+            cx={350}
+            cy={250}
+            fill="white"
+            r={3} />
+        </svg>
+      </div>
+    </div>
+    <div
+      style={undefined}>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "color": "#444",
+            "fontFamily": "
+              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+            ",
+            "fontSize": 15,
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+          }
+        }>
+        <div
           style={
             Object {
-              "backgroundColor": "#fafafa",
-              "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
-              "fontSize": ".88em",
-              "lineHeight": 1.5,
-              "overflowX": "scroll",
-              "padding": ".5rem",
+              "marginBottom": 0,
             }
           }>
-          <div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
+          <p
+            style={
+              Object {
+                "WebkitFontSmoothing": "antialiased",
+                "color": "#444",
+                "fontFamily": "
+                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
+                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                ",
+                "fontSize": 15,
+              }
+            }>
+            white point is center of hex
+          </p>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }>
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontSize": ".88em",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }>
+            <div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
                   }
                 }>
-                <
-                svg
-              </span>
-              <span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    width
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
-                    </span>
-                  </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  svg
                 </span>
                 <span>
-                   
-                  <span
-                    style={Object {}}>
-                    height
-                  </span>
                   <span>
-                    =
+                     
                     <span
                       style={Object {}}>
-                      <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
-                          }
-                        }>
-                        \"
-                        500
-                        \"
-                      </span>
+                      width
                     </span>
-                  </span>
-                </span>
-                <span>
-                   
-                  <span
-                    style={Object {}}>
-                    style
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
                         <span
                           style={
                             Object {
-                              "color": "#666",
+                              "color": "#22a",
+                              "wordBreak": "break-word",
                             }
                           }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      height
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          500
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}>
+                      style
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
                           {
                           <span
                             style={
@@ -2370,724 +2475,767 @@ exports[`simple usage`] = `
                                 "color": "#666",
                               }
                             }>
-                            border
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }>
+                              border
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }>
+                              \"
+                              1px solid
+                              \"
+                            </span>
+                            }
                           </span>
-                          : 
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  >
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          pointy-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
                           <span
                             style={
                               Object {
-                                "color": "#22a",
-                                "wordBreak": "break-word",
+                                "color": "#a11",
                               }
                             }>
-                            \"
-                            1px solid
-                            \"
+                            150
                           </span>
                           }
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                  
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                >
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
                           }
-                        }>
-                        \"
-                        pointy-topped
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          150
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
+                    <span>
+                      <br />
+                        
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          50
-                        </span>
-                        }
-                      </span>
+                      size
                     </span>
-                  </span>
-                  <br />
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                circle
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    cx
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          150
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    cy
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    r
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          3
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    fill
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            50
+                          </span>
                           }
-                        }>
-                        \"
-                        white
-                        \"
+                        </span>
                       </span>
                     </span>
+                    <br />
                   </span>
-                  <br />
                 </span>
-              </span>
-              <span
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
                   }
                 }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                Hex
-              </span>
-              <span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  circle
+                </span>
                 <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    type
-                  </span>
-                  <span>
-                    =
+                    <span>
+                      <br />
+                        
+                    </span>
                     <span
                       style={Object {}}>
+                      cx
+                    </span>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            150
+                          </span>
                           }
-                        }>
-                        \"
-                        flat-topped
-                        \"
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    x
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          350
                         </span>
-                        }
                       </span>
                     </span>
                   </span>
-                </span>
-                <span>
                   <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    y
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
+                    <span>
+                      <br />
+                        
                     </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    size
-                  </span>
-                  <span>
-                    =
                     <span
                       style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          50
-                        </span>
-                        }
-                      </span>
+                      cy
                     </span>
-                  </span>
-                  <br />
-                </span>
-              </span>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 33,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
-                style={
-                  Object {
-                    "color": "#777",
-                  }
-                }>
-                <
-                circle
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    cx
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          350
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    cy
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          250
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    r
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
-                      <span>
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }>
-                          3
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <br />
-                      
-                  </span>
-                  <span
-                    style={Object {}}>
-                    fill
-                  </span>
-                  <span>
-                    =
-                    <span
-                      style={Object {}}>
+                    <span>
+                      =
                       <span
-                        style={
-                          Object {
-                            "color": "#22a",
-                            "wordBreak": "break-word",
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
                           }
-                        }>
-                        \"
-                        white
-                        \"
+                        </span>
                       </span>
                     </span>
                   </span>
-                  <br />
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      r
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            3
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      fill
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          white
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                    <br />
+                  </span>
                 </span>
-              </span>
-              <span
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
                   }
                 }>
-                />
-              </span>
-            </div>
-            <div
-              style={
-                Object {
-                  "paddingLeft": 18,
-                  "paddingRight": 3,
-                }
-              }>
-              <span
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  Hex
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      type
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          flat-topped
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      x
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            350
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      y
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      size
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            50
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
                 style={
                   Object {
-                    "color": "#777",
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
                   }
                 }>
-                </
-                svg
-                >
-              </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  <
+                  circle
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      cx
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            350
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      cy
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            250
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      r
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#a11",
+                              }
+                            }>
+                            3
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}>
+                      fill
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}>
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }>
+                          \"
+                          white
+                          \"
+                        </span>
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  />
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }>
+                  </
+                  svg
+                  >
+                </span>
+              </div>
             </div>
-          </div>
-        </pre>
-      </div>
-      <div>
-        <h1
-          style={
-            Object {
-              "borderBottom": "1px solid #EEE",
-              "fontSize": 25,
-              "margin": "20px 0 0 0",
-              "padding": "0 0 5px 0",
-            }
-          }>
-          Prop Types
-        </h1>
+          </pre>
+        </div>
         <div>
-          <h2
+          <h1
             style={
               Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": 25,
                 "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
               }
             }>
-            \"
-            Hex
-            \" Component
-          </h2>
-          <table
-            style={
-              Object {
-                "borderCollapse": "separate",
-                "borderSpacing": "10px 5px",
-                "marginLeft": -10,
-              }
-            }>
-            <thead>
-              <tr>
-                <th>
-                  property
-                </th>
-                <th>
-                  propType
-                </th>
-                <th>
-                  required
-                </th>
-                <th>
-                  default
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  size
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  type
-                </td>
-                <td>
-                  other
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  x
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  y
-                </td>
-                <td>
-                  number
-                </td>
-                <td>
-                  yes
-                </td>
-                <td>
-                  -
-                </td>
-              </tr>
-            </tbody>
-          </table>
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }>
+              \"
+              Hex
+              \" Component
+            </h2>
+            <table
+              style={
+                Object {
+                  "borderCollapse": "separate",
+                  "borderSpacing": "10px 5px",
+                  "marginLeft": -10,
+                }
+              }>
+              <thead>
+                <tr>
+                  <th>
+                    property
+                  </th>
+                  <th>
+                    propType
+                  </th>
+                  <th>
+                    required
+                  </th>
+                  <th>
+                    default
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    size
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    type
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    x
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    y
+                  </td>
+                  <td>
+                    number
+                  </td>
+                  <td>
+                    yes
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <base
+    target="_parent" />
+  <a
+    className="github-corner"
+    href="/">
+    <svg
+      height={80}
+      style={
+        Object {
+          "fill": "#fff",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      viewBox="0 0 250 250"
+      width={80}>
+      <path
+        className="octo-banner"
+        d="M0 0l115 115h15l12 27 108 108V0z"
+        fill="#151513" />
+      <path
+        className="octo-arm"
+        d="M128 109c-15-9-9-19-9-19 3-7 2-11 2-11-1-7 3-2 3-2 4 5 2 11 2 11-3 10 5 15 9 16"
+        style={
+          Object {
+            "WebkitTransformOrigin": "130px 106px",
+            "transformOrigin": "130px 106px",
+          }
+        } />
+      <path
+        className="octo-body"
+        d="M115 115s4 2 5 0l14-14c3-2 6-3 8-3-8-11-15-24 2-41 5-5 10-7 16-7 1-2 3-7 12-11 0 0 5 3 7 16 4 2 8 5 12 9s7 8 9 12c14 3 17 7 17 7-4 8-9 11-11 11 0 6-2 11-7 16-16 16-30 10-41 2 0 3-1 7-5 11l-12 11c-1 1 1 5 1 5z" />
+    </svg>
+  </a>
 </div>
 `;
