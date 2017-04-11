@@ -16,7 +16,7 @@ story.add('README\'s example', () => {
   const height = 25;
 
   const Hexes = gridPoints(type, oX, oY, size, width, height).map(({ props, gridX, gridY }) => (
-    <Hex key={`${gridX}-${gridY}`} {...props} fill="white" stroke="black" />
+    <Hex type="pointy-topped" key={`${gridX}-${gridY}`} {...props} fill="white" stroke="black" />
   ));
 
   return (
@@ -31,6 +31,7 @@ story.add('PointyTopped-Hex grid system', () => {
   const Hexes = gridPoints('pointy-topped', 100, 100, size, 10, 10).map(({ props, gridX, gridY }) => (
     <g key={`${gridX}-${gridY}`}>
       <Hex
+        type="pointy-topped"
         {...props}
         fill="white"
         stroke="black"
@@ -52,6 +53,7 @@ story.add('FlatTopped-Hex grid system', () => {
   const Hexes = gridPoints('flat-topped', 100, 100, size, 10, 10).map(({ props, gridX, gridY }) => (
     <g key={`${gridX}-${gridY}`}>
       <Hex
+        type="pointy-topped"
         {...props}
         fill={`rgb(${Math.floor(rng() * 255)},${Math.floor(rng() * 255)},${Math.floor(rng() * 255)})`}
         stroke="white"
