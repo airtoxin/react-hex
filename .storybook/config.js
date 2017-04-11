@@ -7,7 +7,7 @@ addDecorator(GithubCorner);
 setAddon(infoAddon);
 
 function loadStories() {
-  require('../stories/index.jsx');
+  require('../stories');
 }
 
 configure(loadStories, module);

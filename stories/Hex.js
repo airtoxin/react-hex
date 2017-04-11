@@ -1,14 +1,14 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import Hex from '../src/index.jsx';
+import Hex from '../src';
 
 storiesOf('Hex', module)
   .addWithInfo('simple usage', 'white point is center of hex', () => (
     <svg width="500" height="500" style={{ border: '1px solid' }}>
       <Hex type="pointy-topped" x={150} y={250} size={50} />
-      <circle cx={150} cy={250} r={3} fill="white"/>
+      <circle cx={150} cy={250} r={3} fill="white" />
       <Hex type="flat-topped" x={350} y={250} size={50} />
-      <circle cx={350} cy={250} r={3} fill="white"/>
+      <circle cx={350} cy={250} r={3} fill="white" />
     </svg>
   ), { inline: true, propTables: [Hex] })
   .addWithInfo('place in corner', () => (
