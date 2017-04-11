@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-operators,react/prop-types,react/no-multi-comp,no-alert */
 import React, { Component } from 'react';
 import seedrandom from 'seedrandom';
 import { storiesOf } from '@kadira/storybook';
@@ -33,7 +34,7 @@ story.add('PointyTopped-Hex grid system', () => {
         {...props}
         fill="white"
         stroke="black"
-        onClick={() => alert(`x=${x} y=${y}`)}
+        onClick={() => global.alert(`x=${gridX} y=${gridY}`)}
       />
       <text x={props.x - size / 2} y={props.y + size / 4}>{`${gridX},${gridY}`}</text>
     </g>
@@ -132,6 +133,20 @@ story.add('animation with transform', () => {
       clearInterval(this.interval);
     }
 
+    renderHex(baseDeg, size, color) {
+      return (
+        <Hex
+          type="pointy-topped"
+          x={250}
+          y={250}
+          size={size}
+          fill={color}
+          stroke="none"
+          transform={`rotate(${baseDeg + this.state.deg}, 250, 250)`}
+        />
+      );
+    }
+
     render() {
       return (
         <g>
@@ -156,20 +171,6 @@ story.add('animation with transform', () => {
           {this.renderHex(90, 10, 'black')}
           {this.renderHex(95, 5, 'white')}
         </g>
-      );
-    }
-
-    renderHex(baseDeg, size, color) {
-      return (
-        <Hex
-          type="pointy-topped"
-          x={250}
-          y={250}
-          size={size}
-          fill={color}
-          stroke="none"
-          transform={`rotate(${baseDeg + this.state.deg}, 250, 250)`}
-        />
       );
     }
   }
@@ -241,7 +242,9 @@ story.add('fill display', () => {
 
     componentDidMount() {
       this.interval = setInterval(() => this.setState({
-        coodinates: this.state.coodinates.concat([[rng() * this.props.displaySize, rng() * this.props.displaySize]]),
+        coodinates: this.state.coodinates.concat(
+          [[rng() * this.props.displaySize, rng() * this.props.displaySize]],
+        ),
       }), 1);
     }
 
