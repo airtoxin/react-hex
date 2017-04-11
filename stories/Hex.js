@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import Hex from '../src/index.jsx';
+import Hex from '../src';
 
 storiesOf('Hex', module)
   .addWithInfo('simple usage', 'white point is center of hex', () => (

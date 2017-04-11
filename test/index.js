@@ -11,7 +11,8 @@ describe('PointyToppedHex', () => {
         y={0}
         size={1}
         fill="red"
-        hello="hex" />
+        hello="hex"
+      />,
     ).find('polygon');
 
     assert.ok(polygon.prop('fill'), 'red');
@@ -26,7 +27,8 @@ describe('PointyToppedHex', () => {
         x={0}
         y={0}
         size={1}
-        onClick={handler}/>
+        onClick={handler}
+      />,
     );
     wrapper.find('polygon').simulate('click');
 
@@ -42,7 +44,8 @@ describe('FlatToppedHex', () => {
         y={0}
         size={1}
         fill="red"
-        hello="hex" />
+        hello="hex"
+      />,
     ).find('polygon');
 
     assert.ok(polygon.prop('fill'), 'red');
@@ -57,7 +60,8 @@ describe('FlatToppedHex', () => {
         x={0}
         y={0}
         size={1}
-        onClick={handler}/>
+        onClick={handler}
+      />,
     );
     wrapper.find('polygon').simulate('click');
 

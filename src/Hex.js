@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { corners } from './utils';
 
-const Hex = props => {
+const Hex = (props) => {
   const { type, x, y, size } = props;
   const points = corners(type, x, y, size);
   return <polygon {...props} points={points.map(p => p.join(',')).join(' ')} />;
