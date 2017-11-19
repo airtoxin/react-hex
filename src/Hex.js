@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
 import { corners } from './utils';
 
 const Hex = (props) => {
